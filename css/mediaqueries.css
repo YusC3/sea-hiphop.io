@@ -1,0 +1,9 @@
+@media all and (max-width: 700px){
+    .section-header p{
+        font-size: 2rem;
+    }
+    
+    .section-header h1{
+        font-size: 4rem;
+    }
+}

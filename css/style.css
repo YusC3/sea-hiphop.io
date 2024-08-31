@@ -25,10 +25,10 @@ h1{
 
 /* HEADER */
 
-.header{
+#header{
     width: 100%;
     height: 80px;
-    display: block;
+    display: flex;
     background-color: #101010;
 }
 
@@ -100,8 +100,8 @@ h1{
 
 /* HOME */
 
-/* REVIEW */
 #home-section{
+    display: flex;
     gap: 5rem;
     height: 100vh;
     background-color: #030168;
@@ -111,7 +111,7 @@ h1{
 }
 
 .home-section-containter{
-    display: flex-;
+    display: flex;
 }
 
 .home-section-header{
@@ -121,15 +121,16 @@ h1{
     color: white;
 }
 
+.home-section-header h1{
+    font-size: 15vw;
+}
+
 .home-section-header h1 span{
     font-weight: 500;
 }
 
-/* REVIEW */
-
 /* CONTACT */
 
-/* REVIEW */
 #contact-section{
     display: flex;
     justify-content: center;
@@ -137,31 +138,45 @@ h1{
     height: 100vh;
 }
 
-.contact-section-header{
-    padding-top: 50%;
+.contact-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header{
     color: black;
-    font-size: large;
+    text-align: center;
+    padding-top: 50%;
+}
+
+.section-header p{
+    font-size: 3rem;
+}
+
+.section-header h1{
+    font-size: 6rem;
 }
 
 .contact-section-details{
-    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding-top: 15px;
 }
 
 .contact-section-pic-container{
     padding-right: 30px;
     padding-left: 30px;
+    display: inline;
+    flex-direction: column;
 }
 
 .contact-section-pic-container p{
-    align-content: center;
+    text-align: center;
     font-size: 16px;
 }
 
 .contact-section-pic{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
-
-/* REVIEW */
