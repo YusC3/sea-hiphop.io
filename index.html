@@ -4,6 +4,7 @@
     <title>SEA Hip-hop</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,21 +19,22 @@
                     <h1>SEA <span>Hip-hop</span></h1>
                 </div>
                 <div class="desktop-nav">
-                    <ul class="navigation-links">
+                    <ul class="desktop-nav-links navigation-links">
                         <li><a href="#about-section">About</a></li>
                         <li><a href="#contact-section">Contact</a></li>
                     </ul>
                 </div>
                 <div class="hamburger-nav">
+                    <div class="off-screen-mobile-nav">
+                        <ul class="ham-nav-links navigation-links">
+                            <li><a href="#about-section" onclick="toggleMenu()">About</a></li>
+                            <li><a href="#contact-section" onclick="toggleMenu()">Contact</a></li>
+                        </ul>
+                    </div>
                     <div class="hamburger-icon" onclick="toggleMenu()">
                         <span></span>
                         <span></span>
-                    </div>
-                    <div>
-                        <ul class="off-screen-navigation-links">
-                            <li><a href="#about-section">About</a></li>
-                            <li><a href="#contact-section">Contact</a></li>
-                        </ul>
+                        <span></span>
                     </div>
                 </div>
             </div>
