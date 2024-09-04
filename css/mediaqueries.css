@@ -6,4 +6,36 @@
     .section-header h1{
         font-size: 4rem;
     }
+
+    .about-section-description-container{
+        width: 100%;
+    }
+
+    .about-text-container,
+    .about-section-description-container{
+        padding-right: 5%;
+        width: inherit;
+    }
+
+    .img-container {
+        padding-left: 10%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    section {
+        height: 110vh;
+    }  
+
+    .about-section-container{
+        flex-direction: column;
+    }
+
+    .img-container {
+        margin-top: 10%;
+    }
+
+    .contact-section-container{
+        padding-top: 50%;
+    }
 }
