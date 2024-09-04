@@ -5,23 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaqueries.css"
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="header">
-        <div class="inner-header">
-            <div class="logo-container">
-                <h1>SEA <span>Hip-hop</span></h1>
+    <nav id="navigation">
+        <div id="header">
+            <div class="inner-header">
+                <div class="logo-container">
+                    <h1>SEA <span>Hip-hop</span></h1>
+                </div>
+                <div class="desktop-nav">
+                    <ul class="navigation-links">
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger-nav">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div>
+                        <ul class="off-screen-navigation-links">
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#contact-section">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul class="navigation-links">
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
         </div>
-    </div>
+    </nav>
     <section id="home-section">
         <div class="home-section-containter">
             <div class="home-section-header">

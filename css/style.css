@@ -61,6 +61,14 @@ h1{
 
 /* NAVIGATION */
 
+.desktop-nav,
+.hamburger-icon{
+    margin-right: 5%;
+    position: relative;
+}
+
+/* DESKTOP NAV */
+
 .navigation-links{
     float: right;
     height: 100%
@@ -85,6 +93,22 @@ h1{
     font-family: "Mitr";
     font-size: 16px;
     font-weight: 200;
+}
+
+/* HAMBURGER NAV */
+
+.hamburger-icon{
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.hamburger-icon span{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
 }
 
 /* SECTIONS */
