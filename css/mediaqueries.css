@@ -20,6 +20,17 @@
     .img-container {
         padding-left: 10%;
     }
+
+    .hamburger-nav{
+        padding-top: 2vh;
+        padding-right: 5%;
+        float: right;
+        display: flex;
+    }
+
+    .desktop-nav{
+        display: none;
+    }
 }
 
 @media all and (max-width: 1000px) {
